@@ -1,1 +1,4 @@
 <%= javascript_packs_with_chunks_tag 'demo', 'application' %>
+
+<!-- We don't have a demo.scss file, so we only need to reference the application.scss file -->
+<%= stylesheet_packs_with_chunks_tag 'application' %>
